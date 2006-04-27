@@ -80,10 +80,13 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/HTML/QuickForm/livesearch_select.php
+%dir %{php_pear_dir}/data/HTML_QuickForm_Livesearch
 %{php_pear_dir}/data/HTML_QuickForm_Livesearch/live.js
 
 %files tests
 %defattr(644,root,root,755)
+%dir %{php_pear_dir}/tests/HTML_QuickForm_Livesearch
+%dir %{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example
 %{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/auto_server.php
 %{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/index.php
 %{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/livesearch.class.php
