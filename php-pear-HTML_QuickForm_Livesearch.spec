@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - element for HTML_QuickForm to enable a suggest search
 Summary(pl):	%{_pearname} - element HTML_QuickForm pozwalaj±cy na do³±czenie sugestii do wyszukiwania
 Name:		php-pear-%{_pearname}
-Version:	0.3.1
+Version:	0.3.2
 Release:	1
 License:	PHP License 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e7bc60a86ac626b7f92732a7eb8097fa
+# Source0-md5:	fae2e8c0e0e8e03ea5197d9c3430cb00
 URL:		http://pear.php.net/package/HTML_QuickForm_Livesearch/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
