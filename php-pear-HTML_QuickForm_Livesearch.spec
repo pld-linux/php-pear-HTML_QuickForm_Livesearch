@@ -5,7 +5,7 @@
 %define		_pearname	HTML_QuickForm_Livesearch
 
 Summary:	%{_pearname} - element for HTML_QuickForm to enable a suggest search
-Summary(pl):	%{_pearname} - element HTML_QuickForm pozwalaj±cy na do³±czenie sugestii do wyszukiwania
+Summary(pl.UTF-8):   %{_pearname} - element HTML_QuickForm pozwalajÄ…cy na doÅ‚Ä…czenie sugestii do wyszukiwania
 Name:		php-pear-%{_pearname}
 Version:	0.3.2
 Release:	1
@@ -38,23 +38,23 @@ list with a large number of row.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet ten dodaje do PEAR::HTML_QuickForm element pozwalaj±cy na
-dynamicznie tworzenie pola input formularza HTML, który na ka¿de
-zdarzenie wci¶niêcia klawisza zwraca listê opcji w dynamicznej li¶cie
+%description -l pl.UTF-8
+Pakiet ten dodaje do PEAR::HTML_QuickForm element pozwalajÄ…cy na
+dynamicznie tworzenie pola input formularza HTML, ktÃ³ry na kaÅ¼de
+zdarzenie wciÅ›niÄ™cia klawisza zwraca listÄ™ opcji w dynamicznej liÅ›cie
 wyboru (live dropdown select).
 
 Element ten korzysta z technologii AJAX (komunikacja z JavaScript bez
-potrzeby prze³adowania strony).
+potrzeby przeÅ‚adowania strony).
 
-Ten tym '¿ywego' wyszukiwania jest przydatny w przypadku formularza z
-list± wyboru z du¿± liczb± pozycji.
+Ten tym 'Å¼ywego' wyszukiwania jest przydatny w przypadku formularza z
+listÄ… wyboru z duÅ¼Ä… liczbÄ… pozycji.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -62,7 +62,7 @@ AutoReq:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
