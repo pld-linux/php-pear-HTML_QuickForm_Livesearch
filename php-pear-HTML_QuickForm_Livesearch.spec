@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - element for HTML_QuickForm to enable a suggest search
 Summary(pl.UTF-8):	%{_pearname} - element HTML_QuickForm pozwalający na dołączenie sugestii do wyszukiwania
 Name:		php-pear-%{_pearname}
-Version:	0.3.2
+Version:	0.4.0
 Release:	1
 License:	PHP License 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	fae2e8c0e0e8e03ea5197d9c3430cb00
+# Source0-md5:	72069ad6852602f7ba17918afc6abb49
 URL:		http://pear.php.net/package/HTML_QuickForm_Livesearch/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -86,13 +86,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files tests
 %defattr(644,root,root,755)
-%dir %{php_pear_dir}/tests/HTML_QuickForm_Livesearch
-%dir %{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example
-%{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/auto_server.php
-%{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/index.php
-%{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/livesearch.class.php
-%{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/live.js
-%{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/style.css
-%{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/shadowAlpha.png
-%{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/shadow.gif
-%{php_pear_dir}/tests/HTML_QuickForm_Livesearch/example/myfunction.php
+%{php_pear_dir}/tests/HTML_QuickForm_Livesearch
