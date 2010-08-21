@@ -1,26 +1,23 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		HTML
-%define		_subclass	QuickForm_Livesearch
 %define		_status		beta
 %define		_pearname	HTML_QuickForm_Livesearch
-
 Summary:	%{_pearname} - element for HTML_QuickForm to enable a suggest search
 Summary(pl.UTF-8):	%{_pearname} - element HTML_QuickForm pozwalający na dołączenie sugestii do wyszukiwania
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
-Release:	3
+Release:	4
 License:	PHP License 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	72069ad6852602f7ba17918afc6abb49
 URL:		http://pear.php.net/package/HTML_QuickForm_Livesearch/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
-Requires:	php-pear-PEAR-core
+Requires:	php-pear-HTML_AJAX > 0.4.1
 Requires:	php-pear-HTML_QuickForm > 3.2.4
-Requires:	php-pear-HTML_AJAX > 0.3
+Requires:	php-pear-PEAR-core
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
