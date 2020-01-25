@@ -1,6 +1,5 @@
 %define		status		beta
 %define		pearname	HTML_QuickForm_Livesearch
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - element for HTML_QuickForm to enable a suggest search
 Summary(pl.UTF-8):	%{pearname} - element HTML_QuickForm pozwalający na dołączenie sugestii do wyszukiwania
 Name:		php-pear-%{pearname}
